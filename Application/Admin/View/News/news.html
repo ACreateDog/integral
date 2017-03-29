@@ -1,0 +1,14 @@
+<extend name="Base:base"/>
+<block name="main">
+    {$var}
+    <form class="form-horizontal form-bordered" action="sendNews" method="post">
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">填写通告</label>
+            <div class="col-sm-7">
+                <textarea class="form-control" name="content" rows="5" style="margin: 0px -17.5938px 0px 0px; height: 112px; width: 490px;"></textarea>
+            </div>
+        </div>
+        <input type="submit" class="btn btn-primary" value="发布">
+    </form>
+</block>
